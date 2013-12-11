@@ -1,0 +1,25 @@
+{
+  "name": "mariana-trench",
+  "version": "0.0.0",
+  "description": "Mariana Trench - Geology 201",
+  "main": "web.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:AustinW/marianas-trench.git"
+  },
+  "author": "Austin White",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/AustinW/marianas-trench/issues"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "dependencies": {
+    "logfmt": "~0.17.0",
+    "express": "~3.4.7"
+  }
+}

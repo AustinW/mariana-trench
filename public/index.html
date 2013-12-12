@@ -10,10 +10,15 @@
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
-
-    <!-- Add custom CSS here -->
-    <link href="css/stylish-portfolio.css" rel="stylesheet">
+    
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/blueimp-gallery.min.css">
+    <link rel="stylesheet" href="css/bootstrap-image-gallery.min.css">
+
+    <link href="css/main.css" rel="stylesheet">
+
+    <script type="text/javascript" src="//cdn.sublimevideo.net/js/vmibu9yg.js"></script>
   </head>
 
   <body>
@@ -23,11 +28,15 @@
     <div id="sidebar-wrapper">
       <ul class="sidebar-nav">
         <a id="menu-close" href="#" class="btn btn-default btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
-        <li class="sidebar-brand"><a href="http://startbootstrap.com">Start Bootstrap</a></li>
+        <li class="sidebar-brand"><a href="http://startbootstrap.com">Mariana Trench</a></li>
         <li><a href="#top">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#facts">Facts</a></li>
+        <li><a href="#location-and-dimensions">Location and Dimensions</a></li>
+        <li><a href="#facts">Basic Facts</a></li>
+        <li><a href="#trieste-expedition">Trieste Expedition</a></li>
         <li><a href="#expeditions">Expeditions</a></li>
+        <li><a href="#biology">Biology</a></li>
+        <li><a href="#map">Map</a></li>
+        <li><a href="#references">References</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </div>
@@ -38,13 +47,13 @@
       <div class="vert-text">
         <h1>Mariana Trench</h1>
         <h3><em>by Austin White</em></h3>
-        <a href="#about" class="btn btn-default btn-lg btn-info">Begin</a>
+        <a href="#location-and-dimensions" class="btn btn-default btn-lg btn-info">Begin</a>
       </div>
     </div>
     <!-- /Full Page Image Header Area -->
   
     <!-- Intro -->
-    <div id="about" class="intro">
+    <div id="location-and-dimensions" class="intro">
       <div class="container">
         <div class="row">
           <div class="col-md-6 col-md-offset-3 text-center">
@@ -64,7 +73,7 @@
               <br /><br />
 
               <button class="btn btn-start btn-default btn-lg" data-toggle="modal" data-target="#basic-facts-diagram">
-                Open Map
+                <i class="fa fa-compass"></i> Open Map
               </button>
 
               <div class="modal fade" id="basic-facts-diagram" tabindex="-1" role="dialog" aria-labelledby="basic-facts-diagram" aria-hidden="true">
@@ -111,7 +120,13 @@
               <p>
                 Ocean floor extremely smooth from constant tectonic motion
                 <br /><br />
-                Earthquakes ranging from a <em>4.5 to 8</em> magnitude
+                Earthquakes ranging from a <em>4.5 to 8</em> magnitude<br /><br />
+
+                <a class="btn btn-start btn-default btn-lg btn-success sublime" href="#9ef7e7c6">
+                  <i class="fa fa-film"></i> Video
+                </a>
+
+                <video id="9ef7e7c6" style="display:none" width="640" height="360" data-uid="9ef7e7c6" preload="none"></video>
               </p>
             </div>
           </div>
@@ -120,7 +135,9 @@
               <i class="fact-icon fa fa-arrow-down"></i>
               <h4>Deepest Point on Earth</h4>
               <p style="margin-top:30px">
-                <button class="btn btn-start btn-default btn-lg btn-info" data-toggle="modal" data-target="#depth-diagram">
+
+                If Mount Everest were submerged at the depth of Challenger Deep, it would still be submerged over a mile underwater.<br /><br />
+                <button class="btn btn-start btn-default btn-lg btn-success" data-toggle="modal" data-target="#depth-diagram">
                   Illustration
                 </button>
               </p>
@@ -164,8 +181,8 @@
     </div>
     <!-- /Facts -->
 
-    <!-- Callout -->
-    <div class="callout">
+    <!-- trieste-expedition -->
+    <div id="trieste-expedition" class="trieste-expedition">
       <div class="vert-text">
         <h1>Trieste Expedition</h1>
         <p class="lead">Don Walsh</p>
@@ -189,7 +206,7 @@
         </object>
       </div>
     </div>
-    <!-- /Callout -->
+    <!-- /trieste-expedition -->
 
     <!-- Expeditions -->
     <div id="expeditions" class="expeditions">
@@ -403,44 +420,210 @@
       </div>
     </div>
 
-    <div class="science">
+    <div id="biology" class="biology">
       <div class="container">
         <div class="row">
-          <div class=""></div>
+          <div class="col-md-10 col-md-offset-1" id="expedition-note" style="padding-top:50px">
+            <h2>Biology</h2>
+            <hr>
+
+            <div id="links" class="row">
+
+              <div class="col-xs-6 col-md-3 thumbnail-bg">
+                <a href="img/biology/Pleuronectes_platessa.jpg" title="Pleuronectes_platessa.jpg" data-gallery>
+                  <img src="img/biology/thumbnails/Pleuronectes_platessa.jpg" alt="Pleuronectes_platessa.jpg" class="thumbnail">
+                </a>
+              </div>
+              <div class="col-xs-6 col-md-3 thumbnail-bg">
+                <a href="img/biology/flatfish3.jpg" title="flatfish3.jpg" data-gallery>
+                  <img src="img/biology/thumbnails/flatfish3.jpg" alt="flatfish3.jpg" class="thumbnail">
+                </a>
+              </div>
+              <div class="col-xs-6 col-md-3 thumbnail-bg">
+                <a href="img/biology/biology-okeanos-explorer.jpg" title="biology-okeanos-explorer.jpg" data-gallery>
+                  <img src="img/biology/thumbnails/biology-okeanos-explorer.jpg" alt="biology-okeanos-explorer.jpg" class="thumbnail">
+                </a>
+              </div>
+              <div class="col-xs-6 col-md-3 thumbnail-bg">
+                <a href="img/biology/flatfish_todd-warshaw.jpg" title="flatfish_todd-warshaw.jpg" data-gallery>
+                  <img src="img/biology/thumbnails/flatfish_todd-warshaw.jpg" alt="flatfish_todd-warshaw.jpg" class="thumbnail">
+                </a>
+              </div>
+              <div class="col-xs-6 col-md-3 thumbnail-bg">
+                <a href="img/biology/deep-sea-vent-anemones-yeti-crab.jpg" title="deep-sea-vent-anemones-yeti-crab.jpg" data-gallery>
+                  <img src="img/biology/thumbnails/deep-sea-vent-anemones-yeti-crab.jpg" alt="deep-sea-vent-anemones-yeti-crab.jpg" class="thumbnail">
+                </a>
+              </div>
+              <div class="col-xs-6 col-md-3 thumbnail-bg">
+                <a href="img/biology/sea-cucumber-enypniastes.jpg" title="sea-cucumber-enypniastes.jpg" data-gallery>
+                  <img src="img/biology/thumbnails/sea-cucumber-enypniastes.jpg" alt="sea-cucumber-enypniastes.jpg" class="thumbnail">
+                </a>
+              </div>
+              <div class="col-xs-6 col-md-3 thumbnail-bg">
+                <a href="img/biology/flatfish.jpg" title="flatfish.jpg" data-gallery>
+                  <img src="img/biology/thumbnails/flatfish.jpg" alt="flatfish.jpg" class="thumbnail">
+                </a>
+              </div>
+              <div class="col-xs-6 col-md-3 thumbnail-bg">
+                <a href="img/biology/flatfish2.jpg" title="flatfish2.jpg" data-gallery>
+                  <img src="img/biology/thumbnails/flatfish2.jpg" alt="flatfish2.jpg" class="thumbnail">
+                </a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="row" id="biology-description">
+          <div class="col-md-10 col-md-offset-1">
+            <p>
+              It is absolutely crucial that these organisms be able to survive without sunlight and
+              sustain themselves at Earth’s deepest ocean floor. Information gleaned from Cameron’s
+              findings can help gain an understanding of Earth’s early life and how it could evolve
+              under the harshest of conditions. Data provided from these cells support theories claiming
+              that life could have evolved from environments similar to that of the Mariana Trench. When
+              plates slide past each other, methane and hydrogen are released (serpentinization), which
+              could have provided an energy source for life to evolve.
+            </p>
+
+            <p>
+              In addition to microorganisms, other creatures were found at the depths of Challenger Deep
+              during James Cameron’s three hour stay, as well as by scientists’ post analysis, including
+              the aforementioned sea cucumber. The cucumber, similar to figure 3, was identified by
+              Natalya Gallo after noticing a slight disturbance int eh sediment. When asked to describe
+              it, she said, “It looks kind of like a fat worm with long feeding appendages.” In order to
+              feed, they must situate themselves in such a way so that the current of the water delivers
+              food particles directly to their feeding tentacles. Also, the Deepsea Challenger captured
+              images of single-celled organisms called xenophyophores, as well as amphipods. Within the
+              amphipods, scientists have discovered scyllo-inositol. The compound is useful because it
+              is currently being studied for its potential in treating Alzheimer’s. Scientists have been
+              analyzing the compound as a potential inhibitor for the progression of plaques on the brain.
+              At the bottom of the ocean, it may be helping amphipods survive under extreme pressure.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="check-out-map">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10 col-md-offset-1 text-center" style="padding:25px 0">
+            <i class="fact-icon fa fa-map-marker"></i>
+            <h2><i class="fa fa-arrow-down"></i> Interactive Map <i class="fa fa-arrow-down"></i></h2>
+          </div>
         </div>
       </div>
     </div>
 
     <!-- Map -->
-    <div id="contact" class="map">
-      <!-- <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a></small></iframe> -->
+    <div id="map" class="map">
+      <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com.au/maps/ms?msa=0&amp;msid=207720047818604728891.0004c3e48862bcf15ee07&amp;ie=UTF8&amp;t=h&amp;ll=11.307708,142.250977&amp;spn=7.535925,9.338379&amp;z=6&amp;output=embed"></iframe>
     </div>
     <!-- /Map -->
+
+    <div id="references" class="references">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10 col-md-offset-1" style="padding:25px 0">
+            
+            <h2><i class="fa fa-pencil"></i> References</h2>
+            <hr>
+
+            
+            <h3>Sites</h3>
+            <p>
+              <ul>
+                <li><a href="http://deepseachallenge.com/the-expedition/mariana-trench/">http://deepseachallenge.com/the-expedition/mariana-trench/</a></li>
+                <li><a href="http://deepseachallenge.com/the-sub/sub-facts/">http://deepseachallenge.com/the-sub/sub-facts/</a></li>
+                <li><a href="http://news.nationalgeographic.com/news/2012/04/120405-james-cameron-mariana-trench-deepsea-challenger-oceans-science">http://news.nationalgeographic.com/news/2012/04/120405-james-cameron-mariana-trench-deepsea-challenger-oceans-science</a></li>
+                <li><a href="http://deepseachallenge.com/the-science/geology/">http://deepseachallenge.com/the-science/geology/</a></li>
+                <li><a href="http://news.nationalgeographic.com/news/2012/03/120325-james-cameron-mariana-trench-challenger-deep-deepest-science-sub">http://news.nationalgeographic.com/news/2012/03/120325-james-cameron-mariana-trench-challenger-deep-deepest-science-sub</a></li>
+                <li><a href="http://www.history.navy.mil/danfs/t8/trieste.htm">http://www.history.navy.mil/danfs/t8/trieste.htm</a></li>
+                <li><a href="http://blogs.nature.com/news/2012/12/james-cameron-releases-results-from-his-deep-dive.html">http://blogs.nature.com/news/2012/12/james-cameron-releases-results-from-his-deep-dive.html</a></li>
+                <li><a href="https://twitter.com/deepchallenge">https://twitter.com/deepchallenge</a></li>
+              </ul>
+            </p>
+            <h3>Media</h3>
+            <p>
+              <ul>
+                <li><a href="http://www.youtube.com/watch?v=9FYKLS7xjpg">http://www.youtube.com/watch?v=9FYKLS7xjpg</a></li>
+                <li><a href="http://en.wikipedia.org/wiki/File:Marianatrenchmap.png">http://en.wikipedia.org/wiki/File:Marianatrenchmap.png</a></li>
+              </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
     
     <!-- Footer -->
-    <footer>
+    <footer id="contact" class="contact">
       <div class="container">
         <div class="row">
           <div class="col-md-6 col-md-offset-3 text-center">
+            <p class="lead">Further information...</p>
             <ul class="list-inline">
-              <li><i class="fa fa-facebook fa-3x"></i></li>
-              <li><i class="fa fa-twitter fa-3x"></i></li>
-              <li><i class="fa fa-dribbble fa-3x"></i></li>
+              <li><a href="http://deepseachallenge.com/" target="_blank"><img src="img/logo_national_geographic.jpg" style="height:64px"></i></a></li>
+              <li><a href="https://twitter.com/deepchallenge" target="_blank"><i class="fa fa-twitter fa-3x" style="color:#4099ff"></i></a></li>
+              <li><a href="http://www.fws.gov/refuge/mariana_trench/" target="_blank"><img src="img/us-fish-wildlife-service.jpg" style="height:64px"></a></li>
             </ul>
             <div class="top-scroll">
               <a href="#top"><i class="fa fa-circle-arrow-up scroll fa-4x"></i></a>
             </div>
             <hr>
-            <p>Copyright &copy; Company 2013</p>
+            <p>
+              <a href="http://www.facebook.com/austingym" target="_blank">
+                <img src="https://fbcdn-profile-a.akamaihd.net/hprofile-ak-prn2/273704_1070280011_1643817793_q.jpg" class="thumbnail" style="display:inline;width:48px;height:48px"> by Austin White
+              </a>
+            </p>
           </div>
         </div>
       </div>
     </footer>
     <!-- /Footer -->
 
+    <!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
+    <div id="blueimp-gallery" class="blueimp-gallery">
+      <!-- The container for the modal slides -->
+      <div class="slides"></div>
+      <!-- Controls for the borderless lightbox -->
+      <h3 class="title"></h3>
+      <a class="prev">‹</a>
+      <a class="next">›</a>
+      <a class="close">×</a>
+      <a class="play-pause"></a>
+      <ol class="indicator"></ol>
+      <!-- The modal dialog, which will be used to wrap the lightbox content -->
+      <div class="modal fade">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" aria-hidden="true">&times;</button>
+              <h4 class="modal-title"></h4>
+            </div>
+            <div class="modal-body next"></div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default pull-left prev">
+                <i class="glyphicon glyphicon-chevron-left"></i>
+                Previous
+              </button>
+              <button type="button" class="btn btn-primary next">
+                Next
+                <i class="glyphicon glyphicon-chevron-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- JavaScript -->
     <script src="js/jquery-1.10.2.js"></script>
     <script src="js/bootstrap.js"></script>
+
+    <script src="js/jquery.blueimp-gallery.min.js"></script>
+    <script src="js/bootstrap-image-gallery.min.js"></script>
+
     <script src="js/main.js"></script>
 
     <!-- Custom JavaScript for the Side Menu and Smooth Scrolling -->

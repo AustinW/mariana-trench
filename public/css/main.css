@@ -153,9 +153,13 @@ i.fact-icon {
   color:#000;
 }
 
-/* Callout */
+#challenger-deep-video .modal-dialog {
+  width: 700px;
+}
 
-.callout {
+/* Trieste Expedition */
+
+.trieste-expedition {
   color: #ffffff;
   display: table;
   height: 600px;
@@ -190,6 +194,12 @@ i.fact-icon {
   display:none;
 }
 
+.expeditions-individual {
+  -webkit-box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow:    0px 10px 5px rgba(0, 0, 0, 0.75);
+  box-shadow:         0px 10px 5px rgba(0, 0, 0, 0.75);
+}
+
 
 /* Call to Action */
 
@@ -203,10 +213,68 @@ i.fact-icon {
   margin: 10px;
 }
 
+/* Biology */
+
+.biology {
+  color: #ffffff;
+  display: table;
+  height: 600px;
+  width: 100%;
+  background: url(../img/underwater.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.biology .container {
+  /* Fallback for web browsers that doesn't support RGBa */
+  background: rgb(0, 0, 0);
+  /* RGBa with 0.6 opacity */
+  background: rgba(0, 0, 0, 0.3);
+  /* For IE 5.5 - 7*/
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+  /* For IE 8*/
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+}
+
+.biology .thumbnail-bg .thumbnail {
+  /* Fallback for web browsers that doesn't support RGBa */
+  background: rgb(255, 255, 255);
+  /* RGBa with 0.6 opacity */
+  background: rgba(255, 255, 255, .2);
+  /* For IE 5.5 - 7*/
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+  /* For IE 8*/
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+}
+
+.biology h2 {
+  font-weight:200;
+}
+
+#biology-description p {
+  font-size:18px;
+}
+
+/* Check Out Map */
+
+.check-out-map {
+  background:#1fa67a;
+  color:#fff;
+
+  text-shadow: 3px 3px 10px rgba(20, 20, 20, 1);
+}
+
 /* Map */
 
 .map {
   height: 500px;
+}
+
+.references {
+  background-color:#eee;
+  border-bottom:1px solid #aaa;
 }
 
 /* Footer */
